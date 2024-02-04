@@ -1,13 +1,112 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;700&display=swap");
+
+body,
+h1,
+h2,
+button {
+  color: #5a3c8b;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Fahkwang", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.cent {
+  align-items: center;
+}
+.circle {
+  display: flex;
+  width: 230px;
+  height: 230px;
+  background-color: #ab83ed;
+  border-radius: 50%;
+  text-align: center;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+}
+.text {
+  margin: auto;
+  white-space: pre;
+}
+
+.bg-home {
+  background-color: #fff2e3;
+}
+.bg-nav {
+  background-color: #ffb45d;
+}
+
+c {
+  color: #ffffff;
+  font-size: 1.8em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h1 {
+  color: #5a3c8b;
+  display: block;
+  font-size: 3.2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+h3 {
+  color: #5a3c8b;
+  display: block;
+  font-size: 2.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h4 {
+  color: black;
+  display: block;
+  font-size: 2.2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+}
+h5 {
+  color: black;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h6 {
+  color: #606060;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
